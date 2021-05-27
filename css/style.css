@@ -27,10 +27,6 @@ a {
     transition: .5s linear;
 }
 
-/* p {
-    max-width: 80ch;
-} */
-
 .block {
     display: flex;
     margin: 10px 0 10px 0;
@@ -62,8 +58,8 @@ a {
 }
 
 #avatar_img{
-    width: 318px;
-    height: 450px;
+    width: 360px;
+    height: 500px;
     /* margin: 20px 0; */
     border-radius: 4px;
 }
@@ -76,12 +72,16 @@ a {
     margin-bottom: 5px;
 }
 
-.about_text {
+.about_block {
     margin: 0 0 0 20px;
-    display: flex;
-    flex-direction: column;
-    height: 440px;
-    padding: 0 30px 10px;
+    height: 490px;
+    padding: 0 14% 10px 30px;
+    min-width: 450px;
+}
+
+.about_text {
+    margin-top: 50px;
+    max-width: 80ch;
 }
 
 .skills {
