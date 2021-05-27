@@ -27,9 +27,9 @@ a {
     transition: .5s linear;
 }
 
-p {
+/* p {
     max-width: 80ch;
-}
+} */
 
 .block {
     display: flex;
