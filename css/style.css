@@ -74,6 +74,7 @@ a {
 
 .about_text {
     margin: 0 0 0 20px;
+    max-width: 80ch;
     display: flex;
     flex-direction: column;
     height: 440px;
@@ -120,6 +121,7 @@ li {
 }
 
 .hobby_and_dev_text {
+    max-width: 80ch;
     flex-direction: column;
     padding: 0 20px;
 }
