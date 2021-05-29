@@ -9,7 +9,7 @@ body {
     background: #A18F83;
 }
 
-.main {
+.main-block {
     margin: 0 5%;
 }
 
@@ -162,4 +162,9 @@ li {
 
 .li_no_point {
     list-style: none;
+}
+
+.mess_icon {
+    width: 48px;
+    height: 48px;
 }
